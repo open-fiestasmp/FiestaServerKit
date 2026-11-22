@@ -1,0 +1,10 @@
+# Starter values; check your Paper/Minecraft version before use.
+server-port=25565
+server-ip=
+online-mode=true
+max-players=20
+motd=A Minecraft server
+view-distance=10
+simulation-distance=6
+white-list=false
+pvp=true
