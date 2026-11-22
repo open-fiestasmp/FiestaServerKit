@@ -1,4 +1,4 @@
-# Starter values; check your Paper/Minecraft version before use.
+# starter values; check your server version and workload
 server-port=25565
 server-ip=
 online-mode=true
@@ -7,4 +7,7 @@ motd=A Minecraft server
 view-distance=10
 simulation-distance=6
 white-list=false
+enforce-whitelist=false
 pvp=true
+enable-command-block=false
+spawn-protection=16
