@@ -4,6 +4,7 @@ A starting point for a Java Paper server, plus an inventory of what Fiesta was r
 
 - [Server settings](server.properties.example): copy to `server.properties` with the server stopped, then edit.
 - [Plugin inventory](PLUGINS.md): names, versions where available and hashes for the game server, proxies and queues.
+- [Fiesta stack](STACK.md): what the hosts were running when checked.
 - [Performance notes](PERFORMANCE.md): a few things to watch when tuning.
 
 Install compatible Java and Paper from their official sources and accept the Minecraft EULA only if you agree to it. Back up existing config before replacing it. Paper creates its other settings on first start.
