@@ -4,6 +4,8 @@ A starting point for a Java Paper server, plus an inventory of what Fiesta was r
 
 - [Server settings](server.properties.example): copy to `server.properties` with the server stopped, then edit.
 - [Plugin inventory](PLUGINS.md): names, versions where available and hashes for the game server, proxies and queues.
+- [Plugin source links](UPSTREAMS.md): upstream links and notes for the plugins we could identify; no third-party jars are included.
+- [MiniMOTD example](examples/minimotd/main.conf.example): a sanitized MOTD and displayed-count setup for MiniMOTD 2.2.5.
 - [Fiesta stack](STACK.md): what the hosts were running when checked.
 - [Performance notes](PERFORMANCE.md): a few things to watch when tuning.
 

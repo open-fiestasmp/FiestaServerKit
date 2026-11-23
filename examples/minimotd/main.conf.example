@@ -1,0 +1,30 @@
+motds=[
+    {
+        line1="<gradient:#ff0080:#ff8c00><b>FiestaSMP</b></gradient> <dark_gray>»</dark_gray> <green>survival is open</green>"
+        line2="<yellow>Survival is open • offline Java accounts welcome</yellow>"
+        icon=server-icon
+    }
+]
+
+motd-enabled=true
+icon-enabled=true
+
+player-count-settings {
+    max-players-enabled=true
+    max-players=20
+    disable-player-list-hover=false
+    hide-player-count=false
+    allow-exceeding-maximum=false
+
+    fake-players {
+        fake-players-enabled=false
+        fake-players="25%"
+    }
+
+    just-x-more-settings {
+        just-x-more-enabled=false
+        x-value=3
+    }
+
+    servers=[]
+}
