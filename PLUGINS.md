@@ -1,6 +1,6 @@
 # fiesta plugin inventory
 
-These jars were present on 2026-11-22. A file being in the plugins folder does not prove it loaded successfully. Versions come from jar metadata and may say `unknown`; SHA-256 identifies the inspected file. Some jars are custom Fiesta plugins.
+These jars were present on 2026-11-22; their hashes were rechecked against the five live plugin directories on 2026-11-24. All 53 listed jars matched, with no missing or additional root-level jars. A file being in the plugins folder does not prove it loaded successfully. Versions come from jar metadata and may say `unknown`; SHA-256 identifies the inspected file. Some jars are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket) and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard) projects are available separately. This inventory does not include plugin binaries, configs or player databases.
 
