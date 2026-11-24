@@ -13,6 +13,7 @@ Links were checked on 2026-11-24. Where the jar declares a website, the link fol
 | DecentHolograms | [DecentHolograms](https://github.com/DecentSoftware-eu/DecentHolograms) |
 | DeluxeMenus | [DeluxeMenus](https://github.com/HelpChat/DeluxeMenus) |
 | Essentials, EssentialsChat, EssentialsSpawn | [EssentialsX](https://github.com/EssentialsX/Essentials) |
+| FiestaGlobalQueue | [FiestaQueueBridge](https://github.com/open-fiestasmp/FiestaQueueBridge) |
 | FiestaPhysicalMarket | [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket) |
 | FiestaSpawnGuard | [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard) |
 | Geyser-Velocity | [Geyser](https://github.com/GeyserMC/Geyser) |
@@ -32,7 +33,7 @@ Links were checked on 2026-11-24. Where the jar declares a website, the link fol
 | WorldEdit | [WorldEdit](https://github.com/EngineHub/WorldEdit) |
 | ajQueue | [ajQueue source](https://github.com/ajgeiss0702/ajQueue), [Spigot page](https://www.spigotmc.org/resources/ajqueue.78266/) |
 | elyby-skinsystem | [Ely.By Skin authorization listing](https://www.spigotmc.org/resources/ely-by-skin-authorization.56838/) (exact jar build not verified) |
-| AgyBridge, FiestaChatArchive, FiestaFlightGuard, FiestaGlobalQueue, FiestaQueueHold | No public source link is recorded in this kit. |
+| AgyBridge, FiestaChatArchive, FiestaFlightGuard, FiestaQueueHold | No public source link is recorded in this kit. |
 | ChatFilter | No source is verified for this specific jar; similarly named plugins may be different projects. |
 
 The Velocity AuthMe jar's metadata does not report a plugin name; its filename and version are recorded in [the inventory](PLUGINS.md).
