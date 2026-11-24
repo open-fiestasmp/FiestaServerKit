@@ -40,3 +40,5 @@ Links were checked on 2026-11-24. Where the jar declares a website, the link fol
 | ChatFilter | No source is verified for this specific jar; similarly named plugins may be different projects. |
 
 The Velocity AuthMe jar's metadata does not report a plugin name; its filename and version are recorded in [the inventory](PLUGINS.md).
+
+PlaceholderAPI expansion jars are listed separately in [the plugin inventory](PLUGINS.md). Their source projects were not verified for this kit, and no expansion jars are included.

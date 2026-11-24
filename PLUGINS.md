@@ -4,6 +4,26 @@ These jars were present on 2026-11-22; their hashes were rechecked against the f
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
+## PlaceholderAPI expansions
+
+These 13 expansion jars were present on the Oracle game server on 2026-11-24. They are separate from the 53 root-level plugin jars below. Their jars do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion jars and their configuration are not included here.
+
+| Jar | Expansion | Version | SHA-256 |
+| --- | --- | --- | --- |
+| `Expansion-chunkexplore.jar` | ChunkExplore | not declared | `c0bc57aaba0c8ce3b8cd373a5d2bddb1191145c5737bef717abc5d5b260c4510` |
+| `Expansion-currency.jar` | Currency | not declared | `99985fd037741af2d65e260b59a232498696e61f4a03c6d55243998ba63351fe` |
+| `Expansion-fiestaemerald.jar` | FiestaEmerald | not declared | `5441186de8a01681f670a0e47f6cdcfeb2f7d14e85b875556fb57f7d0b9db8a5` |
+| `Expansion-fiestaphysical.jar` | FiestaPhysical | not declared | `585d750be2f24ca73a0b0bca682fc835c039e39ae28d86341cd468b886090242` |
+| `Expansion-fiestasell.jar` | FiestaSell | not declared | `101294616e9ee226c4b78567904b1dac8b03adf3744d6db6729ee5b0c420c795` |
+| `Expansion-fiestaworldinfo.jar` | FiestaWorldInfo | not declared | `1e1cc106088d2f4c063f19c6c3c4d3e24c4e823b6a2fc5fd85bf022bc7cafbc6` |
+| `Expansion-fixexplosions.jar` | FixExplosions | not declared | `dfa3a1c6ce8ec21364e153c0732f48dd2c73acad3d92d23872c181ffde6f11d9` |
+| `Expansion-player.jar` | Player | not declared | `a35574bbbe9ce8868821154371fd754e66402a3828c7453b8ce32bc536e8ac6c` |
+| `Expansion-rtp.jar` | RTP | not declared | `fa53f50d58afca2e4770247db4df88de8a0fd3c5112fe9d383a91a9aa7ef5d7d` |
+| `Expansion-server.jar` | Server | not declared | `91c7b6983b95905208e73d998ed0e18b1ff5c057cd910329392cc0332e9a3f21` |
+| `Expansion-statistic.jar` | Statistic | not declared | `24bace77953663c1f432dbf179dfedaea4950d1875dad56615eb78fe3ffb5cee` |
+| `Expansion-teams.jar` | Teams | not declared | `0ddd17eff3f6d08195369e7042b5be6075e4dc4bc5f1e56f92c2ffdcacb646ed` |
+| `Expansion-vault.jar` | Vault | not declared | `33d630ede9a4c1cb2c0bd4ef1d382f95c7614c80de45a354d2a09e8f5669ca5e` |
+
 ## Oracle game server
 
 | Jar | Plugin | Version | SHA-256 |
