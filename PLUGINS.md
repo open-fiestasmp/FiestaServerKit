@@ -1,12 +1,12 @@
 # fiesta plugin inventory
 
-These 53 root-level plugin jars were rechecked against the live Oracle and Luna plugin directories on 2026-11-24. All hashes match, with no missing or additional root-level jars. The 13 Oracle PlaceholderAPI expansions were also rechecked and match. A file being in the plugins folder does not prove it loaded successfully. Versions come from jar metadata; SHA-256 identifies the inspected file. Some jars are custom Fiesta plugins.
+These 53 root-level plugin JARs were rechecked against the five live Oracle and Luna plugin directories on 2026-11-25; all names and hashes matched, with no missing or extra root-level JARs. The 13 Oracle PlaceholderAPI expansion JARs also match the live directory. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
 ## PlaceholderAPI expansions
 
-These 13 expansion jars were present on the Oracle game server on 2026-11-24. They are separate from the 53 root-level plugin jars below. Their jars do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion jars and their configuration are not included here.
+These 13 expansion JARs were present on the Oracle game server on 2026-11-25. They are separate from the 53 root-level plugin JARs below. Their JARs do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion JARs and their configuration are not included here.
 
 | Jar | Expansion | Version | SHA-256 |
 | --- | --- | --- | --- |
