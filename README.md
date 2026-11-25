@@ -7,6 +7,7 @@ A starting point for a Java Paper server, plus an inventory of what Fiesta was r
 - [Plugin source links](UPSTREAMS.md): upstream links and notes for the plugins we could identify; no third-party jars are included.
 - [MiniMOTD example](examples/minimotd/main.conf.example): a sanitized MOTD and displayed-count setup for MiniMOTD 2.2.5.
 - [Velocity and Paper forwarding](examples/velocity-paper/README.md): a modern-forwarding example, backend firewall rules, and notes for networks that use offline accounts.
+- [Geyser and firewall ports](examples/geyser-firewall/README.md): OCI ingress and UFW rules for the current Geyser transport.
 - [Fiesta stack](STACK.md): what the hosts were running when checked.
 - [Performance notes](PERFORMANCE.md): a few things to watch when tuning.
 
