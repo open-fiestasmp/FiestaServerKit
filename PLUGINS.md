@@ -1,6 +1,6 @@
 # fiesta plugin inventory
 
-The 56 root-level plugin JARs across all five live Oracle and Luna plugin directories matched on 2026-11-26 at 03:06 IST. At 04:00 IST, FiestaSpawnGuard 1.0.1 was deployed to the Oracle game server; its row below has been refreshed. The other 55 JARs and 13 Oracle PlaceholderAPI expansions retain the hashes from the 03:06 check. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+The 56 root-level plugin JARs across the five live Oracle and Luna plugin directories were inventoried at 03:06 IST on 2026-11-26. FiestaSpawnGuard 1.0.1 was deployed to Oracle main at 04:00. At 05:16, ViaVersion and ViaBackwards 5.12.3 were deployed to Oracle main, Oracle queue, and Luna queue; all six JARs were rehashed and load-checked after startup. The remaining 49 JARs and 13 Oracle PlaceholderAPI expansions retain the hashes from the 03:06 check. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
@@ -50,9 +50,9 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 | `TAB.jar` | TAB | `6.1.2` | `7ee17e6211abc025fafff0cf93ee97d1a21022cfd80aed696be32fab9f43c8bc` |
 | `VaultUnlocked-2.20.2.jar` | Vault | `2.20.2` | `bd9e7a31f1b2d31a591497174887eea7ae7e632c6b179da13e4f0ad732de2df7` |
-| `ViaBackwards-5.12.2.jar` | ViaBackwards | `5.12.2` | `9a148a80ea22074f4bd1626cdbe254a4cd998bf44e7ceaff4e285a1b6b35da42` |
+| `ViaBackwards-5.12.3.jar` | ViaBackwards | `5.12.3` | `181f3aadbd172ddc1819e2114d0c2aeccc640f2f1adf6d92144bfbedf1a96e83` |
 | `ViaRewind.jar` | ViaRewind | `4.1.4-SNAPSHOT` | `d8d5e721aa2875878bf0a7a8f26d95055c896191246a9e85af977130add30a7c` |
-| `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |
+| `ViaVersion-5.12.3.jar` | ViaVersion | `5.12.3` | `f7ee2e4f5bc9fd3fa93f4f5ae7e8a2292eb8adf8a0fbdbffbf880833bb4d7259` |
 | `WorldEdit.jar` | WorldEdit | `7.4.5+7590-b8dc4c1` | `e5696a6d064b9969437a8888be91b0941148a28e0c3736de1554a00254a5d142` |
 | `ajQueue.jar` | ajQueue | `2.9.1-b276` | `0e90e946b98ba9bd9aea0dbf97c2b8b9599e96ae8821e559b253f0c59a54a8c7` |
 | `floodgate-spigot.jar` | floodgate | `2.2.5-SNAPSHOT` | `21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e` |
@@ -77,9 +77,9 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | --- | --- | --- | --- |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
-| `ViaBackwards-5.12.2.jar` | ViaBackwards | `5.12.2` | `9a148a80ea22074f4bd1626cdbe254a4cd998bf44e7ceaff4e285a1b6b35da42` |
+| `ViaBackwards-5.12.3.jar` | ViaBackwards | `5.12.3` | `181f3aadbd172ddc1819e2114d0c2aeccc640f2f1adf6d92144bfbedf1a96e83` |
 | `ViaRewind.jar` | ViaRewind | `4.1.4-SNAPSHOT` | `d8d5e721aa2875878bf0a7a8f26d95055c896191246a9e85af977130add30a7c` |
-| `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |
+| `ViaVersion-5.12.3.jar` | ViaVersion | `5.12.3` | `f7ee2e4f5bc9fd3fa93f4f5ae7e8a2292eb8adf8a0fbdbffbf880833bb4d7259` |
 | `floodgate-spigot.jar` | floodgate | `2.2.5-SNAPSHOT` | `21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e` |
 
 ## Luna proxy
@@ -100,7 +100,7 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | --- | --- | --- | --- |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
-| `ViaBackwards-5.12.2.jar` | ViaBackwards | `5.12.2` | `9a148a80ea22074f4bd1626cdbe254a4cd998bf44e7ceaff4e285a1b6b35da42` |
+| `ViaBackwards-5.12.3.jar` | ViaBackwards | `5.12.3` | `181f3aadbd172ddc1819e2114d0c2aeccc640f2f1adf6d92144bfbedf1a96e83` |
 | `ViaRewind.jar` | ViaRewind | `4.1.4-SNAPSHOT` | `d8d5e721aa2875878bf0a7a8f26d95055c896191246a9e85af977130add30a7c` |
-| `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |
+| `ViaVersion-5.12.3.jar` | ViaVersion | `5.12.3` | `f7ee2e4f5bc9fd3fa93f4f5ae7e8a2292eb8adf8a0fbdbffbf880833bb4d7259` |
 | `floodgate-spigot.jar` | floodgate | `2.2.5-SNAPSHOT` | `21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e` |
