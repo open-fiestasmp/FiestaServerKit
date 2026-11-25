@@ -1,12 +1,12 @@
 # fiesta plugin inventory
 
-These 53 root-level plugin JARs were rechecked against the five live Oracle and Luna plugin directories on 2026-11-25; all names and hashes matched, with no missing or extra root-level JARs. The 13 Oracle PlaceholderAPI expansion JARs also match the live directory. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+These 56 root-level plugin JARs were rechecked against all five live Oracle and Luna plugin directories on 2026-11-25; all 56 names and hashes match. The 13 Oracle PlaceholderAPI expansion JARs also match the live directory. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
 ## PlaceholderAPI expansions
 
-These 13 expansion JARs were present on the Oracle game server on 2026-11-25. They are separate from the 53 root-level plugin JARs below. Their JARs do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion JARs and their configuration are not included here.
+These 13 expansion JARs were present on the Oracle game server on 2026-11-25. They are separate from the 56 root-level plugin JARs below. Their JARs do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion JARs and their configuration are not included here.
 
 | Jar | Expansion | Version | SHA-256 |
 | --- | --- | --- | --- |
@@ -55,7 +55,6 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |
 | `WorldEdit.jar` | WorldEdit | `7.4.5+7590-b8dc4c1` | `e5696a6d064b9969437a8888be91b0941148a28e0c3736de1554a00254a5d142` |
 | `ajQueue.jar` | ajQueue | `2.9.1-b276` | `0e90e946b98ba9bd9aea0dbf97c2b8b9599e96ae8821e559b253f0c59a54a8c7` |
-| `elyby-skinsystem-0.2.0-beta.jar` | elyby-skinsystem | `0.2.0-beta` | `3a6a493abebc794a511c6395e2145f820df5cd497d2767d912a123c54820548c` |
 | `floodgate-spigot.jar` | floodgate | `2.2.5-SNAPSHOT` | `21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e` |
 | `minimotd-paper-2.2.5.jar` | MiniMOTD | `2.2.5` | `a1f5bff3abf4c9c90bd4417ce26612e621c83a1564f3fc7aa39848996cbea6c6` |
 | `packetevents-spigot.jar` | packetevents | `2.14.0` | `060087c58ec268eae7dd0eb1f17ac3bea1eaadda1693414141ff64e506091bd7` |
@@ -70,12 +69,14 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `b05b43fa4eefa8ce01c760495fe1427a1527afb3f78e71c9512149f7aa323132` |
 | `floodgate-velocity.jar` | floodgate | `2.2.5-SNAPSHOT (b141-81b65cc)` | `649835022de37ff09255fc626d4bfe7bc2a3b926d07b0dfaf1f51e12bf37001d` |
 | `minimotd-velocity.jar` | MiniMOTD | `2.2.5` | `b5d01ae7596b951f842d105d8a70552bf75761ced2bd413739d627c59b058ed5` |
+| `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 
 ## Oracle queue
 
 | Jar | Plugin | Version | SHA-256 |
 | --- | --- | --- | --- |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
+| `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 | `ViaBackwards-5.12.2.jar` | ViaBackwards | `5.12.2` | `9a148a80ea22074f4bd1626cdbe254a4cd998bf44e7ceaff4e285a1b6b35da42` |
 | `ViaRewind.jar` | ViaRewind | `4.1.4-SNAPSHOT` | `d8d5e721aa2875878bf0a7a8f26d95055c896191246a9e85af977130add30a7c` |
 | `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |
@@ -91,12 +92,14 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `b05b43fa4eefa8ce01c760495fe1427a1527afb3f78e71c9512149f7aa323132` |
 | `floodgate-velocity.jar` | floodgate | `2.2.5-SNAPSHOT (b141-81b65cc)` | `649835022de37ff09255fc626d4bfe7bc2a3b926d07b0dfaf1f51e12bf37001d` |
 | `minimotd-velocity.jar` | MiniMOTD | `2.2.5` | `b5d01ae7596b951f842d105d8a70552bf75761ced2bd413739d627c59b058ed5` |
+| `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 
 ## Luna queue
 
 | Jar | Plugin | Version | SHA-256 |
 | --- | --- | --- | --- |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
+| `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 | `ViaBackwards-5.12.2.jar` | ViaBackwards | `5.12.2` | `9a148a80ea22074f4bd1626cdbe254a4cd998bf44e7ceaff4e285a1b6b35da42` |
 | `ViaRewind.jar` | ViaRewind | `4.1.4-SNAPSHOT` | `d8d5e721aa2875878bf0a7a8f26d95055c896191246a9e85af977130add30a7c` |
 | `ViaVersion-5.12.2.jar` | ViaVersion | `5.12.2` | `24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b` |

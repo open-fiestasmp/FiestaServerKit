@@ -36,7 +36,6 @@ Links were checked on 2026-11-24. Where the jar declares a website, the link fol
 | ViaVersion | [ViaVersion](https://github.com/ViaVersion/ViaVersion) |
 | WorldEdit | [WorldEdit](https://github.com/EngineHub/WorldEdit) |
 | ajQueue | [ajQueue source](https://github.com/ajgeiss0702/ajQueue), [Spigot page](https://www.spigotmc.org/resources/ajqueue.78266/) |
-| elyby-skinsystem | [Ely.By Skin authorization listing](https://www.spigotmc.org/resources/ely-by-skin-authorization.56838/) (exact jar build not verified) |
 | ChatFilter | No source is verified for this specific jar; similarly named plugins may be different projects. |
 
 The Velocity AuthMe jar's metadata does not report a plugin name; its filename and version are recorded in [the inventory](PLUGINS.md).
