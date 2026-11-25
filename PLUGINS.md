@@ -42,7 +42,7 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `FiestaChatArchive.jar` | FiestaChatArchive | `1.1.0` | `0411cdbfdebdb2065a8e6bdf91c17cf125f631ecdad56708e4646cf693a40e64` |
 | `FiestaFlightGuard.jar` | FiestaFlightGuard | `1.0.0` | `786b0182ba031f4dc4742eb859aa7d976c8af9eeeea25ecfb4556e3d68080c53` |
 | `FiestaPhysicalMarket.jar` | FiestaPhysicalMarket | `0.2.0` | `9ccc67062f424b04109b6b357337a6a27d01cb06c928066dfc7fb20eb7a17f8e` |
-| `FiestaSpawnGuard.jar` | FiestaSpawnGuard | `1.0.0` | `91b348e927ac0586a710bf1090f47143c469da202c93fc1a3767a8a7bc32ff2b` |
+| `FiestaSpawnGuard.jar` | FiestaSpawnGuard | `1.0.0` | `7d2f00db0199b41f831b9daf79100c87d2fa1b8610c83c96eeaba59493052938` |
 | `GrimAC.jar` | GrimAC | `2.3.74` | `3ac71c0b6ef8ab586c1dd3ab4c0b3254394ef39d048e4985efb2898b9fef628c` |
 | `LandClaimPlugin-3.4.0.jar` | LandClaimPlugin | `3.4.0` | `5d9c64fcd1225a0820c4b634b6a52e682e38599d90f19fbb7ee6b4f4c65ce53e` |
 | `LuckPerms-Bukkit-5.5.71.jar` | LuckPerms | `5.5.71` | `49cecb66fa1fd22a133039a490e9c1e5095a238e7cd66eb9d2a16fe6c897550d` |
