@@ -50,6 +50,17 @@ If the proxy and backend are on different hosts, use a private network or authen
 
 ## Networks using offline accounts
 
-This example has Velocity authenticate accounts and is for a network using Minecraft account authentication. If the proxy instead uses `online-mode = false`, configure authentication on the backend and make Paper's Velocity `online-mode` value match the proxy. AuthMe's proxy integration has its own setup for that mode; follow its current guide and use one forwarding method consistently. Test login, server switches, and backend isolation on a staging server before opening it to players.
+The example above has Velocity authenticate accounts. For `online-mode = false`, install AuthMe on the backend that handles login and the matching AuthMe Velocity plugin on the proxy. On each AuthMe backend, enable the proxy hook and disable the database cache:
+
+```yaml
+Hooks:
+  bungeecord: true
+  proxySharedSecret: "set-the-same-private-random-value-on-the-proxy"
+
+DataSource:
+  caching: false
+```
+
+Set the same private `proxySharedSecret` in the Velocity plugin config. Its `authServers` list should contain only backend names where AuthMe actually runs. Keep the secret out of public repositories. Follow AuthMe's current guide for the forwarding mode and login redirects supported by your release. Test account registration, login, queue access, server switches, and reconnects on a staging setup before opening it to players.
 
 References: [Velocity forwarding](https://docs.papermc.io/velocity/player-information-forwarding/), [Velocity server security](https://docs.papermc.io/velocity/security/), [Paper global configuration](https://docs.papermc.io/paper/reference/global-configuration/), and [AuthMe proxy setup](https://github.com/AuthMe/AuthMeReloaded/wiki/Proxy-Configuration).
