@@ -50,17 +50,44 @@ If the proxy and backend are on different hosts, use a private network or authen
 
 ## Networks using offline accounts
 
-The example above has Velocity authenticate accounts. For `online-mode = false`, install AuthMe on the backend that handles login and the matching AuthMe Velocity plugin on the proxy. On each AuthMe backend, enable the proxy hook and disable the database cache:
+The example above has Velocity authenticate accounts. For offline accounts, set `online-mode = false` in Velocity, install AuthMe on the backends that handle login, and install the matching AuthMeVelocity plugin on the proxy. Keep Paper's Velocity forwarding enabled. Fiesta currently pairs Velocity `online-mode = false` with modern forwarding to Paper 1.21.11; check the AuthMe guide for the exact forwarding setup supported by your versions before copying that combination.
+
+For this profile, keep `server.properties` at `online-mode=false` and set Paper's Velocity `online-mode` flag to `false` too:
+
+```yaml
+proxies:
+  velocity:
+    enabled: true
+    online-mode: false
+    secret: "replace-with-your-private-velocity-forwarding-secret"
+```
+
+On each AuthMe backend, enable the proxy hook and turn off the database cache:
 
 ```yaml
 Hooks:
   bungeecord: true
-  proxySharedSecret: "set-the-same-private-random-value-on-the-proxy"
+  proxySharedSecret: "replace-with-a-private-authme-secret"
 
 DataSource:
   caching: false
 ```
 
-Set the same private `proxySharedSecret` in the Velocity plugin config. Its `authServers` list should contain only backend names where AuthMe actually runs. Keep the secret out of public repositories. Follow AuthMe's current guide for the forwarding mode and login redirects supported by your release. Test account registration, login, queue access, server switches, and reconnects on a staging setup before opening it to players.
+In the AuthMeVelocity config, use the same AuthMe secret and keep unauthenticated players from switching to protected servers or running commands:
+
+```yaml
+authServers:
+  - main
+proxySharedSecret: "replace-with-the-same-private-authme-secret"
+serverSwitch:
+  requiresAuth: true
+commands:
+  requireAuth: true
+chatRequiresAuth: true
+```
+
+The AuthMe secret is separate from Velocity's forwarding secret. Don't reuse one value for both. `authServers` must use names from `velocity.toml` and should list servers where AuthMe handles login. `chatRequiresAuth: false` permits pre-login chat on the proxy's auth servers; it is not a queue-only switch. Use that only when you intend to allow pre-login chat, and handle queue moderation separately.
+
+Keep both secrets out of public repositories. Follow AuthMe's current guide for the forwarding mode and login redirects supported by your release. Test registration, login, queue entry, server switches, and reconnects with your exact versions before opening the network to players.
 
 References: [Velocity forwarding](https://docs.papermc.io/velocity/player-information-forwarding/), [Velocity server security](https://docs.papermc.io/velocity/security/), [Paper global configuration](https://docs.papermc.io/paper/reference/global-configuration/), and [AuthMe proxy setup](https://github.com/AuthMe/AuthMeReloaded/wiki/Proxy-Configuration).
