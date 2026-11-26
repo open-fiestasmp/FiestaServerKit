@@ -1,12 +1,12 @@
 # fiesta plugin inventory
 
-At 15:50 IST on 2026-11-26, all five live Oracle and Luna plugin directories were rehashed. The 58 root-level JARs and 13 Oracle PlaceholderAPI expansion hashes in these tables match the live files. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+At 18:23 IST on 2026-11-26, all five live Oracle and Luna plugin directories were rehashed. The 58 root-level JARs in these tables match the live files. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
 ## PlaceholderAPI expansions
 
-These 13 expansion JARs were rehashed on the Oracle game server at 13:00 IST on 2026-11-26. They are separate from the 58 root-level plugin JARs below. Their JARs do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion JARs and their configuration are not included here.
+These 13 expansion JARs were rehashed on the Oracle game server at 18:24 IST on 2026-11-26. They are separate from the 58 root-level plugin JARs below, and their hashes match the live files. Their JARs do not declare a version in the metadata inspected, so the table records the installed filename and SHA-256 instead. Expansion JARs and their configuration are not included here.
 
 | Jar | Expansion | Version | SHA-256 |
 | --- | --- | --- | --- |
