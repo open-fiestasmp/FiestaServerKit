@@ -1,6 +1,6 @@
 # fiesta stack snapshot
 
-Checked 2026-11-26. This describes Fiesta's current layout, not a ready-made install. Verify versions and settings against the server before copying anything.
+Checked 2026-11-27. This describes Fiesta's current layout, not a ready-made install. Verify versions and settings against the server before copying anything.
 
 - Oracle hosts the authoritative Paper game world. Its current settings allow 20 players, use offline account mode, and set view and simulation distance to 32. AuthMe handles the in-game login step; offline mode still requires a correctly secured proxy and backend.
 - Oracle also runs the Velocity entry proxy, a separate Paper queue world, and the shared queue coordinator. Queue inventory and player state are separate from the main game.
