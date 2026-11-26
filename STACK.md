@@ -1,11 +1,14 @@
 # fiesta stack snapshot
 
-This is what was observed on 2026-11-22. It is an inventory, not a complete install guide or a guarantee these versions work together on another server.
+Checked 2026-11-26. This describes Fiesta's current layout, not a ready-made install. Verify versions and settings against the server before copying anything.
 
-- Main game server reported Minecraft 1.21.11 with a development server build. Check the jar and plugin compatibility before copying its setup.
-- The host Java command reported OpenJDK 25.0.5.1. Different services may need different Java versions.
-- Fiesta runs a game server, Velocity proxy, queue server, shared queue coordinator, admin panel, chat archive and several moderation and join-review services.
-- Luna has a proxy, a queue server and an SSH tunnel to the Oracle host.
-- [The plugin list](PLUGINS.md) records jars found on both hosts, including versions when their metadata supplied them. A jar in the folder is not proof that it loaded.
+- Oracle hosts the authoritative Paper game world. Its current settings allow 20 players, use offline account mode, and set view and simulation distance to 32. AuthMe handles the in-game login step; offline mode still requires a correctly secured proxy and backend.
+- Oracle also runs the Velocity entry proxy, a separate Paper queue world, and the shared queue coordinator. Queue inventory and player state are separate from the main game.
+- A Luna proxy and waiting service are being used as a remote edge path back to Oracle. They do not host a second copy of the world. High client ping and reconnect failures have been reported, and a healthy server-side probe does not verify the route from a player's network.
+- The main game, proxy, queue, and queue coordinator services were active at the time of this check. Chunky generation is paused and automatic world-tier eviction is disabled while Oracle storage is tight.
+- Fiesta's public entry currently reaches Oracle. Treat the Luna route as under evaluation until players confirm stable connections and lower ping.
+- The plugin inventory is in [PLUGINS.md](PLUGINS.md). It records files and hashes; a JAR in a folder does not prove it loaded. Fetch third-party plugins from their publishers and check compatibility and license terms.
 
-World data, accounts, plugin databases, credentials and private network settings are separate from these templates. Fetch each third-party plugin from its own publisher and review its license and setup guide.
+The public world snapshots live in separate repositories: [world](https://github.com/open-fiestasmp/world), [world-nether](https://github.com/open-fiestasmp/world-nether), [world-the-end](https://github.com/open-fiestasmp/world-the-end), and [world-maintaince](https://github.com/open-fiestasmp/world-maintaince). They are world backups, not complete server restores.
+
+This kit leaves out credentials, passwords, private addresses, and live plugin databases. Keep those in a private backup. Do not put them in an example config or commit.
