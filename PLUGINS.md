@@ -1,6 +1,6 @@
 # fiesta plugin inventory
 
-On 2026-11-27, all five live Oracle and Luna plugin directories were rehashed; all 58 root-level JARs match the live files. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+On 2026-11-27, all five live Oracle and Luna plugin directories were rehashed; all 58 root-level JARs matched the live files at that check. After the queue bridge rollout, its Oracle and Luna proxy JAR hashes below were checked again against the deployed artifact. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
@@ -66,7 +66,7 @@ These 13 expansion JARs were rehashed on the Oracle game server at 18:24 IST on 
 | `AuthMe-6.0.1-Velocity.jar` | AuthMe Velocity | `6.0.1-b2770` | `d2e511398e4a8bbecd38e9434a98610cc8fa081462df687efb04682e24939e6e` |
 | `Geyser-Velocity.jar` | Geyser-Velocity | `2.12.1-b1284 (git-master-da836ca)` | `df0e646deb0b62d3092d0f9467ea192ffcdde342401d02c9c2e45ea351ef68dd` |
 | `ajQueue.jar` | ajQueue | `2.9.1-b276` | `0e90e946b98ba9bd9aea0dbf97c2b8b9599e96ae8821e559b253f0c59a54a8c7` |
-| `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `b05b43fa4eefa8ce01c760495fe1427a1527afb3f78e71c9512149f7aa323132` |
+| `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `d3dca8ebc8205ef501776c5b285fd252c06bee26b2654b685167454908f3541f` |
 | `floodgate-velocity.jar` | floodgate | `2.2.5-SNAPSHOT (b141-81b65cc)` | `649835022de37ff09255fc626d4bfe7bc2a3b926d07b0dfaf1f51e12bf37001d` |
 | `minimotd-velocity.jar` | MiniMOTD | `2.2.5` | `b5d01ae7596b951f842d105d8a70552bf75761ced2bd413739d627c59b058ed5` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
@@ -90,7 +90,7 @@ These 13 expansion JARs were rehashed on the Oracle game server at 18:24 IST on 
 | `AuthMe-6.0.1-Velocity.jar` | AuthMe Velocity | `6.0.1-b2770` | `d2e511398e4a8bbecd38e9434a98610cc8fa081462df687efb04682e24939e6e` |
 | `Geyser-Velocity.jar` | Geyser-Velocity | `2.12.1-b1284 (git-master-da836ca)` | `df0e646deb0b62d3092d0f9467ea192ffcdde342401d02c9c2e45ea351ef68dd` |
 | `ajQueue.jar` | ajQueue | `2.9.1-b276` | `0e90e946b98ba9bd9aea0dbf97c2b8b9599e96ae8821e559b253f0c59a54a8c7` |
-| `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `b05b43fa4eefa8ce01c760495fe1427a1527afb3f78e71c9512149f7aa323132` |
+| `fiesta-global-queue.jar` | FiestaGlobalQueue | `0.1.0-dev` | `d3dca8ebc8205ef501776c5b285fd252c06bee26b2654b685167454908f3541f` |
 | `floodgate-velocity.jar` | floodgate | `2.2.5-SNAPSHOT (b141-81b65cc)` | `649835022de37ff09255fc626d4bfe7bc2a3b926d07b0dfaf1f51e12bf37001d` |
 | `minimotd-velocity.jar` | MiniMOTD | `2.2.5` | `b5d01ae7596b951f842d105d8a70552bf75761ced2bd413739d627c59b058ed5` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
