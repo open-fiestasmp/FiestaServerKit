@@ -1,6 +1,6 @@
 # fiesta plugin inventory
 
-The 56 root-level plugin JARs across the five live Oracle and Luna plugin directories were inventoried at 03:06 IST on 2026-11-26. FiestaSpawnGuard 1.0.2 was deployed to Oracle main at 06:42. At 05:16, ViaVersion and ViaBackwards 5.12.3 were deployed to Oracle main, Oracle queue, and Luna queue; all six JARs were rehashed and load-checked after startup. The remaining 49 JARs and 13 Oracle PlaceholderAPI expansions retain the hashes from the 03:06 check. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+The 56 root-level plugin JARs across the five live Oracle and Luna plugin directories were inventoried at 03:06 IST on 2026-11-26. Since then, ViaVersion and ViaBackwards 5.12.3 were deployed to Oracle main, Oracle queue, and Luna queue; all six JARs were rehashed and load-checked after startup. FiestaChatArchive 1.2.0 is now installed on Oracle main, Oracle queue, and Luna queue. FiestaSpawnGuard 1.0.2 was deployed to Oracle main at 06:42. These tables now list 58 JARs; the other 48 and 13 Oracle PlaceholderAPI expansions retain their hashes from the 03:06 check. A JAR in the plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
@@ -39,7 +39,7 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 | `EssentialsX-2.22.0.jar` | Essentials | `2.22.0` | `bda4685105977fca2e209820a9f0ad24275bd103390a03236f38e59bfdac58e6` |
 | `EssentialsXChat-2.22.0.jar` | EssentialsChat | `2.22.0` | `e5b0211f98af1eaba712d9294997639a39209db1fc842394a0923820073ec65a` |
 | `EssentialsXSpawn-2.22.0.jar` | EssentialsSpawn | `2.22.0` | `dd5377c4c921b9b67814209f4f6646ffbb959729003e721ec5e63c47c7c010b8` |
-| `FiestaChatArchive.jar` | FiestaChatArchive | `1.1.0` | `0411cdbfdebdb2065a8e6bdf91c17cf125f631ecdad56708e4646cf693a40e64` |
+| `FiestaChatArchive.jar` | FiestaChatArchive | `1.2.0` | `57e6e2c0749bfdf0894fcc9f6ae3dcd1af7882764372199bab214af511b34e36` |
 | `FiestaFlightGuard.jar` | FiestaFlightGuard | `1.0.0` | `786b0182ba031f4dc4742eb859aa7d976c8af9eeeea25ecfb4556e3d68080c53` |
 | `FiestaPhysicalMarket.jar` | FiestaPhysicalMarket | `0.2.0` | `9ccc67062f424b04109b6b357337a6a27d01cb06c928066dfc7fb20eb7a17f8e` |
 | `FiestaSpawnGuard.jar` | FiestaSpawnGuard | `1.0.2` | `24b7f544946df3363e254c6c065a5adb3434b9d8b1568f2333381c6cce9272c1` |
@@ -75,6 +75,7 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 
 | Jar | Plugin | Version | SHA-256 |
 | --- | --- | --- | --- |
+| `FiestaChatArchive.jar` | FiestaChatArchive | `1.2.0` | `57e6e2c0749bfdf0894fcc9f6ae3dcd1af7882764372199bab214af511b34e36` |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 | `ViaBackwards-5.12.3.jar` | ViaBackwards | `5.12.3` | `181f3aadbd172ddc1819e2114d0c2aeccc640f2f1adf6d92144bfbedf1a96e83` |
@@ -98,6 +99,7 @@ These 13 expansion JARs were present on the Oracle game server on 2026-11-25. Th
 
 | Jar | Plugin | Version | SHA-256 |
 | --- | --- | --- | --- |
+| `FiestaChatArchive.jar` | FiestaChatArchive | `1.2.0` | `57e6e2c0749bfdf0894fcc9f6ae3dcd1af7882764372199bab214af511b34e36` |
 | `FiestaQueueHold.jar` | FiestaQueueHold | `1.1.1` | `e3f9c07eb8424d43aec195fe38fa3d053b37c000be147a60d1e5a0bc9f99cee6` |
 | `SkinsRestorer.jar` | SkinsRestorer | `15.12.6` | `a85b4a370f988741c9a38f4d0498262edacbf3220314790ac1c127461996359c` |
 | `ViaBackwards-5.12.3.jar` | ViaBackwards | `5.12.3` | `181f3aadbd172ddc1819e2114d0c2aeccc640f2f1adf6d92144bfbedf1a96e83` |
