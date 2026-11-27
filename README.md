@@ -13,6 +13,8 @@ A starting point for a Java Paper server, plus an inventory of what Fiesta was r
 
 Install compatible Java and Paper from their official sources and accept the Minecraft EULA only if you agree to it. Back up existing config before replacing it. Paper creates its other settings on first start.
 
+The `server.properties` file here is for a standalone server listening on the Java port. For Paper behind Velocity, use the backend listener settings in the [forwarding example](examples/velocity-paper/README.md) instead: bind Paper to loopback on its private backend port, and do not expose that port to players.
+
 The example uses Minecraft account authentication. If you allow offline accounts, arrange account authentication and secure your backend before changing that setting. Keep passwords, keys and addresses out of public repos.
 
 Community project; not an official Mojang or Paper product. No Minecraft license or server binaries are included.
