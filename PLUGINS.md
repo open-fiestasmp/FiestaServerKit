@@ -1,6 +1,6 @@
 # fiesta plugin inventory
 
-On 2026-11-27, all five live Oracle and Luna plugin directories were rehashed; all 58 root-level JARs matched the live files at that check. After the queue bridge rollout, its Oracle and Luna proxy JAR hashes below were checked again against the deployed artifact. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
+On 2026-11-27, all five live Oracle and Luna plugin directories were rehashed; all 58 root-level JARs matched the live files at that check. After the queue bridge rollout, its Oracle and Luna proxy JAR hashes below were checked again against the deployed artifact. At 09:30 IST, Oracle's SpawnGuard JAR was updated with the merged OP-default and trust-menu permission fixes; the hash below is the deployed file. A JAR in a plugins folder may not have loaded. Versions come from JAR metadata; SHA-256 identifies the inspected file. Some are custom Fiesta plugins.
 
 Get third-party plugins from their official publishers and check licenses and compatibility before using them. The following custom projects are available separately: [AgyBridge](https://github.com/open-fiestasmp/AgyBridge), [FiestaChatArchive](https://github.com/open-fiestasmp/FiestaChatArchive), [FiestaFlightGuard](https://github.com/open-fiestasmp/FiestaFlightGuard), [FiestaGlobalQueue](https://github.com/open-fiestasmp/FiestaQueueBridge), [FiestaPhysicalMarket](https://github.com/open-fiestasmp/FiestaPhysicalMarket), [FiestaQueueHold](https://github.com/open-fiestasmp/FiestaQueueHold), and [FiestaSpawnGuard](https://github.com/open-fiestasmp/FiestaSpawnGuard). The AgyBridge and FiestaChatArchive repositories omit Fiesta-specific locations or paths; their published builds therefore differ from the installed jars. This inventory includes no plugin binaries, configs, or player databases.
 
@@ -42,7 +42,7 @@ These 13 expansion JARs were rehashed on the Oracle game server at 18:24 IST on 
 | `FiestaChatArchive.jar` | FiestaChatArchive | `1.2.0` | `57e6e2c0749bfdf0894fcc9f6ae3dcd1af7882764372199bab214af511b34e36` |
 | `FiestaFlightGuard.jar` | FiestaFlightGuard | `1.0.0` | `786b0182ba031f4dc4742eb859aa7d976c8af9eeeea25ecfb4556e3d68080c53` |
 | `FiestaPhysicalMarket.jar` | FiestaPhysicalMarket | `0.2.0` | `9ccc67062f424b04109b6b357337a6a27d01cb06c928066dfc7fb20eb7a17f8e` |
-| `FiestaSpawnGuard.jar` | FiestaSpawnGuard | `1.0.4` | `d2e92bd87d09d134d1bf775499a7985cbab3609f75eefd2764850a320a1c07a3` |
+| `FiestaSpawnGuard.jar` | FiestaSpawnGuard | `1.0.4` | `5e13ed49cf9d832ff96a22bd409aee3383bf2c38617b9b8ee775abb20297aefa` |
 | `GrimAC.jar` | GrimAC | `2.3.74` | `3ac71c0b6ef8ab586c1dd3ab4c0b3254394ef39d048e4985efb2898b9fef628c` |
 | `LandClaimPlugin-3.4.0.jar` | LandClaimPlugin | `3.4.0` | `5d9c64fcd1225a0820c4b634b6a52e682e38599d90f19fbb7ee6b4f4c65ce53e` |
 | `LuckPerms-Bukkit-5.5.71.jar` | LuckPerms | `5.5.71` | `49cecb66fa1fd22a133039a490e9c1e5095a238e7cd66eb9d2a16fe6c897550d` |
