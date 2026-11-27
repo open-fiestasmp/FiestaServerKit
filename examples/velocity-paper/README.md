@@ -91,3 +91,19 @@ The AuthMe secret is separate from Velocity's forwarding secret. Don't reuse one
 Keep both secrets out of public repositories. Follow AuthMe's current guide for the forwarding mode and login redirects supported by your release. Test registration, login, queue entry, server switches, and reconnects with your exact versions before opening the network to players.
 
 References: [Velocity forwarding](https://docs.papermc.io/velocity/player-information-forwarding/), [Velocity server security](https://docs.papermc.io/velocity/security/), [Paper global configuration](https://docs.papermc.io/paper/reference/global-configuration/), and [AuthMe proxy setup](https://github.com/AuthMe/AuthMeReloaded/wiki/Proxy-Configuration).
+
+## Queue routing with ajQueue
+
+If Velocity tries a queue backend before the game server, ajQueue can bypass that extra connection when it would send the player straight into the game. In `plugins/ajqueue/config.yml`:
+
+```yaml
+queue-servers:
+  - queue:main
+queue-server-delay: 0
+skip-queue-server-if-possible: true
+force-queue-server-target: true
+```
+
+Use the server names from `velocity.toml` in `queue:main`. With the skip enabled, players go straight to `main` when ajQueue can send them there right away; otherwise they enter the waiting queue. Keep the delay at `0` because ajQueue only uses a queue-server delay when skipping is disabled. The queue still holds players when the main server is full or unavailable.
+
+See [ajQueue's main config](https://wiki.ajg0702.us/ajQueue/configs/main) for the rest of its settings.
